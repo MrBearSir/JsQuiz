@@ -1,0 +1,52 @@
+body {
+    background-color: lightblue;
+}
+.topButtons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+
+}
+.buttons {
+    margin: 30px 30px 30px;
+    box-shadow:3px 3px 3px rgb(90, 89, 89);
+    width: 300px;
+    height: 100px;
+    font-size:1.3vw;
+}
+.button {
+    margin: 10px 10px 10px;
+    box-shadow:3px 3px 3px rgb(90, 89, 89);
+    width: 1000px;
+    height: 100px;
+    align-items: center;
+    font-size:1.5vw;
+    font-family:cursive;
+}
+#container {
+    background-color: lightblue;
+}
+
+.quizContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: lightblue;
+    font-size:3vw;
+    font-family:cursive;
+    text-shadow: 3px 3px 3px darkgray;
+}
+.quiztimer {
+    background-color: lightblue;
+    font-size:2vw;
+    font-family:cursive;
+    text-shadow: 3px 3px 3px darkgray;
+    text-align: center;
+}
+.quizAnswers {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
